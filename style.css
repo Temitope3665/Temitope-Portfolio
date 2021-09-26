@@ -173,6 +173,11 @@ body {
         display: flex;
         justify-content: flex-start;
     }
+
+    .links {
+        font-size: 10px;
+    }
+
     /* .contact-links {
 
     } */
@@ -198,6 +203,10 @@ body {
     .works-links {
         display: flex;
         justify-content: flex-start;
+    }
+
+    .links {
+        font-size: 10px;
     }
 
 }
