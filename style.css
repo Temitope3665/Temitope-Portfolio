@@ -73,7 +73,7 @@ body {
 
 #building-digital {
     border-bottom: 1px solid rgba(0, 0, 0, 0.137);
-    padding-bottom: 30px;
+    padding-bottom: 26px;
 }
 
 .social-media {
@@ -89,6 +89,12 @@ body {
     border-radius: 6px;
     padding: 10px 20px 10px 20px ;
     box-shadow: inset 2px 1px 2px rgba(168, 168, 168, 0.425), 2px 2px 6px rgba(119, 117, 117, 0.452);
+}
+
+.view-here {
+    color: #e0663c;
+    font-size: 9px;
+    font-style: italic;
 }
 
 /* Works */
@@ -209,4 +215,14 @@ body {
         font-size: 10px;
     }
 
+    .view-here {
+        font-size: 7px;
+    }
+
+}
+
+@media screen and  (max-width: 375px) {
+    .view-here {
+        font-size: 7px;
+    }
 }
