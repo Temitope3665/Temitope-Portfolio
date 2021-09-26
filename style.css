@@ -1,0 +1,203 @@
+* {
+    font-family: "Poppins", "Satisfy";
+    color: #fff;
+    background-color: #F1F1F1;
+    
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.main-bg {
+    background-image: url(./images/overall-triangle.svg);
+    background-size: cover;
+}
+
+.my-name a {
+    text-decoration: none;
+    font-family: "Satisfy";
+    color: #000;
+}
+
+.my-name a:hover {
+    color: #e0663c;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-sm {
+    position: fixed;
+    top: 50%;
+    margin-left: 2em;
+    cursor: pointer;
+}
+
+
+.my-name {
+    color: #000;
+    font-family: "Satisfy";
+    justify-self: center;
+    align-content: center;
+}
+
+.poppins {
+    color: #000;
+    font-family: Poppins;
+    
+}
+
+.show-case {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.about-me a {
+    text-decoration: none;
+    color: #000;
+}
+
+.about-me a:hover {
+    color: #e0663c;
+}
+
+.about-me a:active {
+    color: #e0663c;
+}
+
+#building-digital {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+    padding-bottom: 30px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.note {
+    font-family: "Satisfy";
+    color: #000;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 10px 20px 10px 20px ;
+    box-shadow: inset 2px 1px 2px rgba(168, 168, 168, 0.425), 2px 2px 6px rgba(119, 117, 117, 0.452);
+}
+
+/* Works */
+.home-option {
+    display: flex;
+    align-content: center;
+}
+
+.work-centered {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.link-img {
+    margin-right: 10px;
+}
+
+.works-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.links a:hover {
+    color: #e0663c;
+}
+
+.links a:active {
+    color: #e0663c;
+}
+
+.contact-links {
+    display: flex;
+    
+}
+
+@media screen and  (max-width: 660px) {
+    .about-me {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .centered {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        
+        /* position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+    }
+
+    .top-image {
+        margin-top: 30px;
+    }
+
+    .centered-sm {
+        margin: 0;
+        padding: 9px;
+    }
+
+    #go-home {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    /* Contact */
+    .phone {
+        font-size: 12px;
+    }
+
+    .works-links {
+        display: flex;
+        justify-content: flex-start;
+    }
+    /* .contact-links {
+
+    } */
+}
+
+@media screen and  (max-width: 320px) {
+    .top-image {
+        margin-top: 120px;
+    }
+
+    .work-centered {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Contact */
+    .phone {
+        font-size: 8px;
+    }
+
+    .works-links {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+}
